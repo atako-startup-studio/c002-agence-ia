@@ -19,23 +19,23 @@ c002-agence-ia/
 
 ## Services
 
-- Audit IA
-- Conseil stratégique
-- Création d'agents IA sur mesure
-- Formation aux agents IA
-- Accompagnement continu
+- Audit Flash — Diagnostic rapide de maturité IA (5 jours)
+- Package Fondations — Premier cas d'usage IA opérationnel
+- Package Essentiel — Intégration structurée multi-agents
+- Package Avancé — Transformation IA complète
+- Accompagnement — Suivi continu et optimisation
+- Ateliers — Formations pratiques pour les équipes
 
 ## Utilisation
 
 1. Déployer via GitHub Pages (activé sur le dépôt)
 2. Configurer le domaine `drovt.com` (CNAME vers `atako-startup-studio.github.io`)
-3. Créer les pages de détail dans `offres/` (liées depuis l'index)
+3. Les pages d'offres sont dans `offres/`, accessibles depuis le landing et entre elles
 
 ## Ce qui peut casser
 
-- Les liens vers `offres/*.html` pointent vers des pages non encore créées (404)
 - Le lien mail `contact@drovt.com` nécessite la configuration du domaine et MX
-- Les pages d'offres individuelles ne sont pas encore créées
+- `js/stripe.js` est référencé mais pas encore créé
 
 ## Hébergement
 
